@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FuerzasAngulares.cs" />
+    <Compile Include="Assets\MovLateral.cs" />
     <Compile Include="Assets\PlayerController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

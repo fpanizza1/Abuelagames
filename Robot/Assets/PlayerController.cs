@@ -22,15 +22,14 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
         if (Input.GetKey(right)) {
-            rb.AddForce(direccion * speed);
+            //rb.AddForce(direccion * speed);
             rb.AddForceAtPosition(direccionAngular * angspeed * -1, headPosition);
         }
 
         if (Input.GetKey(left))
         {
-            rb.AddForce(direccion * speed * -1);
+            //rb.AddForce(direccion * speed * -1);
             rb.AddForceAtPosition(direccionAngular * angspeed, headPosition);
         }
     }
